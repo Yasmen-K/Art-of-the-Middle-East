@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background-color: lightyellow;
+    background-image: url(images/remove.png),url(images/left2.png);
+    
+    background-repeat: no-repeat;
+    background-position: right 100%,left 100%;
+    background-size: 20% 20%;
+}
+
+
+header{
+    /* border: 2px solid black; */
+    padding-top: 35%;
+    background-color: cadetblue;
+    background-image: url(images/calligraphy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 4%;
+    
+   
+}
+
+section{
+    
+    border: 10px solid transparent;
+    border-image: url(images/811dd3e7ea5dfc58085acb2d88ab0190.jpg) 83 round;
+    border-image-width: 10%;
+    /* padding: 10px; */
+    border-radius: 10px;
+    
+
+    background-color: lightyellow;
+    
+    
+    grid-column: 2;
+   
+
+
+
+   
+    
+   
+}
+
+ section p{
+    font-size: 20px;
+    padding:10%;
+   
+    
+} 
+
+aside{
+    border: 20px solid transparent;
+    
+    border-image: url(images/Classic_Floral_Frame_Elegance_Background_Text_Stok_Vektör__Telifsiz__765642886-removebg-preview.png) 83 round;
+    border-image-width: 10%;
+    background-color: transparent;
+    margin: 30% 0 0 20px;
+    /* padding: 20%; */
+    height: 40%;
+
+
+}
+
+aside p{
+    padding: 10%;
+}
+
+footer{
+    /* border: 2px solid black; */
+    background-color: thistle;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+    padding: 15px;
+}
+
+footer img{
+    width:40px;
+}
+
+footer li{
+display: inline;
+padding: 10px;
+
+}
+
+footer ul{
+    margin: 0 auto;
+    width: 20%;
+}
+
+.container{
+    /* margin: 30px; */
+    display: grid;
+    grid-template-columns: 20% 70%;
+  
+    /* border: 2px solid black; */
+    column-gap: 30px;
+    
+}
+
+video{
+   margin-left: 24%;
+}
