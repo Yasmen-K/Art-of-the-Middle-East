@@ -12,7 +12,7 @@ body{
 
 header{
     /* border: 2px solid black; */
-    background-image: url(images/calligraphy.jpg);
+    background-image: url(../images/calligraphy.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding-top: 35%; 

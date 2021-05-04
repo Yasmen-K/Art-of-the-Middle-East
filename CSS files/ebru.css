@@ -6,7 +6,7 @@
 
 body{
     background-color: lightyellow;
-    background-image: url(images/remove.png),url(images/left2.png);
+    background-image: url(../images/remove.png),url(../images/left2.png);
     
     background-repeat: no-repeat;
     background-position: right 100%,left 100%;
@@ -18,7 +18,7 @@ header{
     /* border: 2px solid black; */
     padding-top: 35%;
     background-color: cadetblue;
-    background-image: url(images/calligraphy.jpg);
+    background-image: url(../images/calligraphy.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin-bottom: 4%;
@@ -29,7 +29,7 @@ header{
 section{
     
     border: 10px solid transparent;
-    border-image: url(images/811dd3e7ea5dfc58085acb2d88ab0190.jpg) 83 round;
+    border-image: url(../images/811dd3e7ea5dfc58085acb2d88ab0190.jpg) 83 round;
     border-image-width: 10%;
     /* padding: 10px; */
     border-radius: 10px;
@@ -58,7 +58,7 @@ section{
 aside{
     border: 20px solid transparent;
     
-    border-image: url(images/Classic_Floral_Frame_Elegance_Background_Text_Stok_Vektör__Telifsiz__765642886-removebg-preview.png) 83 round;
+    border-image: url(../images/Classic_Floral_Frame_Elegance_Background_Text_Stok_Vektör__Telifsiz__765642886-removebg-preview.png) 83 round;
     border-image-width: 10%;
     background-color: transparent;
     margin: 30% 0 0 20px;
