@@ -8,7 +8,7 @@ function createFooter(){
     let aInstagram = document.createElement('a')
     let imgInstagram = document.createElement('img')
     
-    imgInstagram.src = "images/instagram.png"
+    imgInstagram.src = "../images/instagram.png"
     aInstagram.appendChild(imgInstagram)
     liInstagram.appendChild(aInstagram)
     footerUl.appendChild(liInstagram)
