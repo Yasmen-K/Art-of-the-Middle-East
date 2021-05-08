@@ -35,7 +35,7 @@ li{
 
 a{
     font-size: 25px;
-    color: #f72585;
+    color: white;
     text-decoration: none;
 }
 
@@ -87,14 +87,16 @@ form h1{
 }
 
 form input{
-    grid-column: 7/10;
+    grid-column: 6/11;
     width: 90%;  
     border-radius: 4px;
     border:1px solid black ;
     outline: none;
     align-self: center;
+    justify-self: stretch;
     padding: 15px; 
     background-color: #f4f8fb;
+    margin-left: 25px;
 }
 
 form input[type = text]{
