@@ -6,16 +6,14 @@
 }
 
 body{
-    background-color: lightyellow;
-    background-image: url(../images/remove.png),url(../images/left2.png);
+    background-color: #e8f8f4;
+    background-image: url(../images/Meşk_Albümü___Hattat_ismail_tülüce-removebg-preview.png),url(../images/TURKISH_ISLAMIC_CALLIGRAPHY_ART__175_-removebg-preview.png);
     
     background-repeat: no-repeat;
-    background-position: right 100%,left 100%;
-    background-size: 20% 20%;
+    background-position: right 95%,left 90%;
+    background-size: 20% 20%,25% 30%;
+    /* transform: rotate(0,30deg); */
 }
-
-
-
 
 
 header{
@@ -68,25 +66,26 @@ nav{
     animation-name: fade;
     animation-duration: 1.5s;
   }
-  
-  
+
+
 
 section{
     
     border: 10px solid transparent;
-    border-image: url(../images/811dd3e7ea5dfc58085acb2d88ab0190.jpg) 83 round;
+    border-image: url(../images/Islamic_floral_art_inside_book_cover_vector_image_on_VectorStock-removebg-preview.png) 120 round;
     border-image-width: 10%;
     border-radius: 10px;
     margin-top: 10%;
-    background-color: lightyellow;
+    background-color: #e8f4f8;
     grid-column: 2;
     overflow: auto;
-    color: #c72f1e;
+    color: black;
 }
 
  section p{
     font-size: 20px;
     padding:10%;
+    
    
 } 
 
@@ -95,7 +94,7 @@ aside{
     
     border-image: url(../images/Classic_Floral_Frame_Elegance_Background_Text_Stok_Vektör__Telifsiz__765642886-removebg-preview.png) 83 round;
     border-image-width: 10%;
-    background-color: transparent;
+    background-color: #e8f4f8;
     margin: 60% 0 0 20px;
     /* padding: 20%; */
     height: 40%;
@@ -110,9 +109,6 @@ aside p{
     word-wrap: break-word
 }
 
-
-
-
 footer{
     left: 0;
     bottom: 0;
@@ -125,6 +121,11 @@ footer img{
     padding: 6px;
 }
 
+.facebook-icon{
+    margin-left: 43%;
+    
+
+}
 .container{
     /* margin: 30px; */
     display: grid;

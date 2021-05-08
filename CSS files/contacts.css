@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+    
+}
+
+body{
+    background-color: #fdf4e5;
+} 
+
+
+header{
+    position: relative;
+}
+
+audio{
+    z-index: i;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px 10px;
+   
+}
+
+ul,li{
+    display: inline;
+    background: transparent;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    font-size: 25px;
+    color: #f72585;
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    margin:10px 10px;
+   
+  
+}
+
+.image-container img{
+    width: 100%;
+    height: 700px;
+    object-fit: fill;
+}
+
+.fade {
+    
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+
+
+form{
+    border: 1px groove white;
+    width: 60%;
+    padding: 4%;  
+    margin: 4% auto;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(6,100px);
+    background-color: white;
+    background-image: url(../images/Twitter.jfif) ;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+    border-radius: 10px;
+}
+
+form h1{
+    grid-column: 7/10;
+    justify-self: start;
+    align-self: center;
+    color: #d93883;
+    
+}
+
+form input{
+    grid-column: 7/10;
+    width: 90%;  
+    border-radius: 4px;
+    border:1px solid black ;
+    outline: none;
+    align-self: center;
+    padding: 15px; 
+    background-color: #f4f8fb;
+}
+
+form input[type = text]{
+    align-self: center;
+}
+
+form textarea{
+    grid-column: 6/11;
+    border:2px solid black ;
+   
+    border:4px ;
+    background-color: #f4f8fb;
+    resize: none;
+    grid-row: 4/6;
+    justify-self: stretch;
+    margin-left: 5%;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+input[type = submit]{
+    grid-column: 7/10;
+   grid-row: 6;
+   width: 70%;
+    
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    background-color: #d93883;
+    color: white;
+    font-size: 20px;
+    border: 0;
+
+    
+}
+
+input,textarea::placeholder{
+    font-size: 20px;
+}
+
+form textarea::placeholder{
+    margin-left: 10px;
+}
+
+
+
+footer{
+    left: 0;
+    bottom: 0;
+    background-color: #d8464f;
+    padding: 10px;
+}
+
+footer img{
+    width: 30px;
+    padding: 6px;
+}
+
