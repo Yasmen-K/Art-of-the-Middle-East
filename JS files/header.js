@@ -4,7 +4,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
       <header>
             
-      <audio src="../sources/background-music.mp4" autoplay controls></audio> 
+      <audio src="../sources/background-music.mp3" autoplay controls></audio> 
      <nav>
          <ul>
              <li><a href="./index.html">Home</a></li>
