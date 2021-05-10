@@ -7,8 +7,7 @@
 
 body{
     background-color: lightyellow;
-    background-image: url(../images/remove.png),url(../images/left2.png);
-    
+    background-image: url(../images/tulips-right.png),url(../images/tulips-left.png);
     background-repeat: no-repeat;
     background-position: right 100%,left 100%;
     background-size: 20% 20%;
@@ -74,7 +73,7 @@ nav{
 section{
     
     border: 10px solid transparent;
-    border-image: url(../images/811dd3e7ea5dfc58085acb2d88ab0190.jpg) 83 round;
+    border-image: url(../images/gold-frame.png) 83 round;
     border-image-width: 10%;
     border-radius: 10px;
     margin-top: 10%;
@@ -91,29 +90,39 @@ section{
 } 
 
 aside{
-    border: 20px solid transparent;
-    
-    border-image: url(../images/Classic_Floral_Frame_Elegance_Background_Text_Stok_Vektör__Telifsiz__765642886-removebg-preview.png) 83 round;
-    border-image-width: 10%;
+    border: 10px solid transparent;
+    border-image: url(../images/rose-frame.png) round;
+    border-image-slice: 40%;
+     border-image-width: 5%; 
     background-color: transparent;
     margin: 60% 0 0 20px;
-    /* padding: 20%; */
+    padding: 20%; 
     height: 40%;
     overflow: auto;
     padding: 5%;
+    color: #c72f1e;
+    
     
 
 }
 
 aside p{
-    padding: 10%;
+    padding: 5%;
     word-wrap: break-word
 }
 
+aside::-webkit-scrollbar {
+    width: 12px;         
+  }
+
+  aside::-webkit-scrollbar-track {
+    background: transparent;        
+  }
 
 
 
-footer{
+
+  footer{
     left: 0;
     bottom: 0;
     background-color: #d8464f;
@@ -121,20 +130,22 @@ footer{
 }
 
 footer img{
-    width: 30px;
-    padding: 6px;
+    width: 35px;
+    padding: 4px;
+}
+
+footer ul{
+    margin-left: 45%;
+    
 }
 
 .container{
-    /* margin: 30px; */
     display: grid;
     grid-template-columns: 20% 70%;
-  
-    /* border: 2px solid black; */
     column-gap: 30px;
     
 }
 
 video{
-   margin-left: 24%;
+    margin: 0 0 5% 24%;
 }
