@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+}
+
+
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    width: 60%;
+    margin: 10% auto;
+}
+
+
+.conatiner{
+    background-color: burlywood;
+    
+    
+    width: 80%;
+    perspective: 1000px;
+    margin: 10% auto;
+    
+}
+
+.card{
+    
+    width: 300px;
+    height: 400px;
+    border: 1px solid lightcyan ;
+    background-color: transparent;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    margin: 5%;
+}
+
+
+
+  
+
+
+  .card-front, .card-back {
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    backface-visibility: hidden;
+    
+    
+    
+  }
+
+
+  .card-front {
+    
+    color: black;
+  }
+  
+
+
+  .card-back {
+    background-color: khaki;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+  .flip{
+    transform: rotateY(180deg);
+}
+
+
+.architecture{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30%;
+    
+}
+
+.vase{
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 30%; 
+}
+
+.calligraphy{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 13%; 
+}
+
+.ebru{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 13%; 
+}
+
+.miniature{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 13%; 
+}
+
+.contacts{
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 30%; 
+}
+
+
+.nav li{
+    margin: 80% 20%;
+   
+}
+
+.nav a:hover{
+    cursor: pointer;
+}
+
+h2{
+    margin: 10% 6%;
+    text-align: center;
+}

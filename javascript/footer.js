@@ -5,9 +5,9 @@ class Footer extends HTMLElement {
       <footer>
             
             <ul>
-                <li><a href="#"><img src="../images/facebook.png" alt=""></a></li>
-                <li><a href="#"><img src="../images/instagram.png" alt=""></a></li>
-                <li><a href="#"><img src="../images/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/footer/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/footer/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="../images/footer/twitter.png" alt=""></a></li>
             </ul>
        </footer> 
         

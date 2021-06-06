@@ -8,7 +8,7 @@
 
 body{
     background-color: #e8f4f8;
-    background-image: url(../images/whirling\ dervish.png),url(../images/calligraphy-vav.png);
+    background-image: url(../images/calligraphy/whirling\ dervish.png),url(../images/calligraphy/calligraphy-vav.png);
     background-repeat: no-repeat;
     background-position: right 95%,left 90%;
     background-size: 20% 20%,25% 30%;
@@ -16,51 +16,6 @@ body{
 }
 
 
-
-header{
-    position: relative;
-}
-
-audio{
-    z-index: i;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 10px 10px;
-   
-}
-
-ul,li{
-    display: inline;
-    background: transparent;
-}
-
-li{
-    list-style: none;
-    padding: 10px;
-}
-
-a{
-    font-size: 25px;
-    color: white;
-    text-decoration: none;
-}
-
-nav{
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    right: 0;
-    margin:10px 10px;
-   
-  
-}
-
-.image-container img{
-    width: 100%;
-    height: 700px;
-    object-fit: fill;
-}
 
 .fade {
     
@@ -130,22 +85,6 @@ aside::-webkit-scrollbar {
   }
 
 
-footer{
-    left: 0;
-    bottom: 0;
-    background-color: #d8464f;
-    padding: 10px;
-}
-
-footer img{
-    width: 35px;
-    padding: 4px;
-}
-
-footer ul{
-    margin-left: 45%;
-    
-}
 
 .container{
   

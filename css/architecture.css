@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/architecture/Blue\ Mosque\,\ Istanbul.jpg),url(../images/architecture/In\ Sevilla\ and\ Cordoba.jpg),url(../images/architecture/Peinture\ par\ Catherine\ Rossi\ \(France\)\ _\ Artmajeur.jpg),url(../images/architecture/salón\ embajadores.jpg),url(../images/architecture/Sunga\ Park\ -\ Cultura\ Inquieta.jpg),url(../images/architecture/Peinture\ par\ Catheri.jpg),url(../images/architecture/Peinture\ par\ Catherine\ Rossi\ \(France\)\ _\ Artmajeur.jpg);
+    background-size: 30% ;
+    background-repeat: no-repeat;
+    background-position: right bottom,-9% 20%,right 26%,-11% 36%,-8% 62%,103% 74%,-3% 88%; 
+    font-family: 'Merienda', cursive;
+    
+}
+
+
+section{
+    
+   width: 80%;
+   margin: 4% auto;
+   padding: 2%;
+   font-size: 1.6em;
+
+}
+
+p{
+    width: 80%;
+    margin: 0 auto ;
+    overflow: auto;
+}
+
+
+h2{
+    
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    margin:2% 10%;
+}
+
+h3{
+    
+    font-size: 26px;
+    margin:2% 10%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 22px;
+    
+}
+
+img{
+   width: 100%;
+   
+}
+
+.architecture,.minaret,.muqarnas-vaulting,.decoration,.dome,.architecture-intro,.arches:hover{
+    cursor: pointer;
+}
+
+
+.wrapper-architecture,.wrapper-decoration{
+
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+    float: left;
+    margin: 1%;
+    
+}
+
+
+.wrapper-minaret{
+    width: 35%;
+    height: 70%;
+    background-color: transparent;
+    float: left;
+    margin: 1%;
+}
+
+.wrapper-muqarnas-vaulting{
+    width: 32%;
+    height: 70%;
+    background-color: transparent;
+    float: left;
+    margin: 1%;
+}
+
+
+.wrapper-architecture-intro,.wrapper-dome,.wrapper-arches{
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+    float: right;
+    margin: 1%;
+}
+
+
+
+.dot-container{
+    text-align: center;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 2px 2px;
+    background-color: #eec75c;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active{
+    background-color: #114ba8;
+  }
+
+
+  
+
+
+  
+
+
+
+
+
+
+
