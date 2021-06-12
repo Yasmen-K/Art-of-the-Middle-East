@@ -2,6 +2,7 @@
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
+      
       <header>
             
     
@@ -13,10 +14,9 @@ class Header extends HTMLElement {
          </ul>
      </nav>
 
-      
 
          <div class="image-container">
-             <img src="../images/header/mosaic.png" alt="Mosaic ceiling">
+             <img src="../images/header/mosaic.png"   alt="Mosaic ceiling">
          </div>
 
          <div class="image-container">
@@ -27,6 +27,7 @@ class Header extends HTMLElement {
              
              <img src="../images/header/calligraphy.png" alt="Caligraphy">
          </div>
+
          
          
 

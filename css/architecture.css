@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Merienda', cursive;
 }
 
 body{
-    background-image: url(../images/architecture/Blue\ Mosque\,\ Istanbul.jpg),url(../images/architecture/In\ Sevilla\ and\ Cordoba.jpg),url(../images/architecture/Peinture\ par\ Catherine\ Rossi\ \(France\)\ _\ Artmajeur.jpg),url(../images/architecture/salón\ embajadores.jpg),url(../images/architecture/Sunga\ Park\ -\ Cultura\ Inquieta.jpg),url(../images/architecture/Peinture\ par\ Catheri.jpg),url(../images/architecture/Peinture\ par\ Catherine\ Rossi\ \(France\)\ _\ Artmajeur.jpg);
-    background-size: 30% ;
+    background-image: url(../images/architecture/salón\ embajadores.png),url(../images/architecture/Barcelone\,.png),url(../images/architecture/Grafisk\ arbejde.png),url(../images/architecture/Sunga\ Park\ -\ Cultura\ Inquieta.png),url(../images/architecture/Sevilla\ and\ Cordoba.png);
+    background-size: 30% ,30%,30%,23%,35%;
     background-repeat: no-repeat;
-    background-position: right bottom,-9% 20%,right 26%,-11% 36%,-8% 62%,103% 74%,-3% 88%; 
-    font-family: 'Merienda', cursive;
+    background-position: right 16%,-4% 32%,right 47%,-5% 60%,right 70%;
     
 }
 

@@ -3,8 +3,10 @@
     padding: 0;
     font-family: 'Merienda', cursive;
 }
-
-
+.animation-container{
+   padding: 2%;
+   margin: 4% 0;
+}
 
 
 .flex-container{
@@ -12,16 +14,13 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    
     width: 60%;
-    margin: 10% auto;
+    margin: 0 auto;
 }
 
 
 .conatiner{
     background-color: burlywood;
-    
-    
     width: 80%;
     perspective: 1000px;
     margin: 10% auto;
@@ -32,7 +31,6 @@
     
     width: 300px;
     height: 400px;
-    border: 1px solid lightcyan ;
     background-color: transparent;
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -41,22 +39,15 @@
 
 
 
-  
-
-
   .card-front, .card-back {
     width: 100%;
     height: 100%; 
     position: absolute;
     backface-visibility: hidden;
-    
-    
-    
   }
 
 
   .card-front {
-    
     color: black;
   }
   
@@ -125,3 +116,119 @@ h2{
     margin: 10% 6%;
     text-align: center;
 }
+
+
+
+ .day{
+  
+    background-image: url(../images/site-map/buildings-day.png),url(../images/site-map/day-sky.png);
+    background-position:  bottom,0; 
+    background-repeat: repeat-x,no-repeat;
+    background-size: 40%,cover; 
+    z-index: 5;
+   
+}
+
+
+.night{
+    background-image: url(../images/site-map/buildings-night.png),url(../images/site-map/night-sky.png);
+    background-position:  bottom,75% 40% ; 
+    background-repeat: repeat-x,repeat-x;
+    background-size: 43%,54%; 
+    z-index: 5; 
+}
+
+
+.sun,.moon{
+    background-color:transparent;
+    background-size: 5%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    z-index: 3; 
+}
+
+.sun{
+    background-image: url(../images/site-map/sun.png);
+    animation: sun 20s ease-in-out  ;
+}
+
+ .moon{ 
+  
+  background-image: url(../images/site-map/moon.png);
+  animation: moon 20s ease-in-out;
+} 
+
+ @keyframes sun{
+
+    from{
+        background-position: 110% 50%;
+        
+    }
+
+    60%{
+        background-position: 50% 3%;
+    
+    }
+
+    to{
+     background-position: -70% 150%;
+     
+    }
+   
+} 
+
+@-webkit-keyframes sun{
+    from{
+        background-position: 110% 50%;
+        
+    }
+
+    60%{
+        background-position: 50% 3%;
+        
+    }
+
+    to{
+     background-position: -70% 150%;
+     
+    }
+   
+}
+
+
+
+@keyframes moon{
+
+    from{
+        background-position: 110% 50%;
+        
+    }
+    
+    60%{
+        background-position: 50% 3%;
+        
+    }
+
+    to{
+    background-position: -100% 150%;
+    
+    }
+   
+}
+
+@-webkit-keyframes moon{
+    from{
+        background-position: 110% 50%;
+        
+    }
+    
+    60%{
+        background-position: 50% 3%;
+        
+    }
+
+    to{
+    background-position: -100% 150%;
+    
+    }
+} 

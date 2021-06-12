@@ -3,7 +3,7 @@ let slideIndex = 0;
 
 function slideImages(){
     
-    let i;
+    
     let carouselContainer = document.getElementsByClassName('image-container')
     
     for (let i = 0; i < carouselContainer.length; i++) {
